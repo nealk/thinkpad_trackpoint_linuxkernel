@@ -42,6 +42,7 @@ make -j 2 deb-pkg LOCALVERSION=-trackpoint
 Now that it's compiled, install it:
 
 ```bash
+cd ..
 sudo dpkg -i linux-image-*.deb
 sudo dpkg -i linux-headers-*.deb
 sudo reboot
