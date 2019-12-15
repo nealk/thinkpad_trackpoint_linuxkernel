@@ -1,4 +1,8 @@
 # thinkpad_trackpoint_linuxkernel
+
+# NOTE: The patch below now part of the mainline for all modern linux distributions. You should no longer need to patch the Lenovo trackpoint drives.
+
+
 How to compile the Linux kernel using the trackpoint drivers for the new thinkpad series on Ubuntu. This has been tested on ubuntu 14.04 on a Thinkpad T450s. YMMV
 
 DISCLAIMER: When updating your kernel, you might make your system unbootable, lose data, or end the universe. I claim no responsibility if you suffer any of these fates. Additionally, updating to a custom kernel will mean that using ```apt-get dist-upgrade``` will no longer work as expected (it'll wipe what is outlined below and put you back on an Ubuntu stock kernel). The Ubuntu kernel wiki is also useful: https://wiki.ubuntu.com/KernelTeam/GitKernelBuild
