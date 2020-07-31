@@ -1,6 +1,6 @@
 # thinkpad_trackpoint_linuxkernel
 
-# NOTE: The patch below now part of the mainline for all modern linux distributions. You should no longer need to patch the Lenovo trackpoint drives.
+# NOTE: The patch below is now part of the mainline for all modern linux distributions. You should no longer need to patch the Lenovo trackpoint drives.
 
 
 How to compile the Linux kernel using the trackpoint drivers for the new thinkpad series on Ubuntu. This has been tested on ubuntu 14.04 on a Thinkpad T450s. YMMV
